@@ -3,54 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Facts About Eggs</title>
 </head>
-<header>
-    <a href="">Header Logo</a>
-    <a href="">header link one</a>
-    <a href="">header link two</a>
-    <a href="">header link three</a>
+
+<header class="box-one">
+    <a class="header-logo" href="">Facts About Eggs</a>
+    <div id="header-link-box">
+        <a class="secondary header-link" href="#facts">Egg Facts</a>
+        <a class="secondary header-link" href="#quote">Egg Quote</a>
+        <a class="secondary header-link" href="#sign-up">Call to Egg-tion</a>
+    </div>
 </header>
+
 <body>
-    <div id="intro">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <figure>
-            <img src="" alt="">
-            <figcaption>this is a placeholder for an image</figcaption>
-        </figure>
-    </div>
-    <div id="facts">
-        <h2>Some random information.</h2>
+    <div id="intro" class="box-two">
+
+        <div class="box-two-left">
+            <h1>Eggs-perience the difference!</h1>
+            <p class="secondary">We have the best facts about eggs. Please see below. Disclaimer: facts may or may not be true. I didn't check.</p>
+            <button>Sign up for egg facts</button>
+        </div>
+
+        <div class="box-two-right">
             <figure>
-                <img src="" alt="">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
+                <img src="pexels-polina-tankilevitch-4110226.jpg" alt="Photo of a tray of eggs, with one egg cracked open" width="auto" height="300px">
             </figure>
-            <figure>
-                <img src="" alt="">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="">
-                <figcaption>this is some subtext under an illustration or image</figcaption>
-            </figure>
+        </div>
+
     </div>
-    <div id="quote">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+
+    <div id="facts" class="box-three">
+
+        <div class="box-three-top">
+            <h2>Free egg facts, just for you.</h2>
+        </div>
+
+        <div class="box-three-bottom">
+            <div class="box-three-pics">
+                <figure>
+                    <img class="box-three-pics-top" src="pexels-punchbrandstock-2209597.jpg" alt="Photo of a relaxed egg">
+                    <figcaption class="box-three-pics-bottom subtext">The world record for the most eggs eaten in one minute is 141, achieved by Joey Chestnut in 2013.</figcaption>
+                </figure>
+            </div>
+            <div class="box-three-pics">
+                <figure>
+                    <img class="box-three-pics-top" src="pexels-daniel-reche-718241-1556707.jpg" alt="Photo of 5 white eggs angry at 1 brown egg">
+                    <figcaption class="box-three-pics-bottom subtext">The practice of egg balancing, where people try to stand an egg on its end during the equinox, has been a tradition in many cultures for centuries.</figcaption>
+                </figure>   
+            </div>
+            <div class="box-three-pics">
+                <figure>
+                    <img class="box-three-pics-top" src="pexels-pixabay-40721.jpg" alt="Photo of egg about to be hit by a hammer">
+                    <figcaption class="box-three-pics-bottom subtext">The color of an egg yolk depends on the diet of the chicken; a diet high in yellow-orange pigmented foods will result in a darker yolk.</figcaption>
+                </figure>
+            </div>
+            <div class="box-three-pics">
+                <figure>
+                    <img class="box-three-pics-top" src="pexels-omranjamal-17609.jpg" alt="Photo of egg balancing on two forks">
+                    <figcaption class="box-three-pics-bottom subtext"> Brown eggs come from chickens with red feathers and red earlobes, while white eggs come from chickens with white feathers and white earlobes.</figcaption>
+                </figure>
+            </div>
+        </div>
     </div>
-    <div id="call">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+
+    <div class="box-four">
+        <p id="quote">Eggs harbor a wealth of intriguing facts. To begin, the color of an eggshell isn't indicative of its nutritional content; rather, it's determined by the breed of the chicken. But the marvels don't end there – did you know that the oldest egg-laying vertebrates are thought to be the ancient reptiles, which appeared around 312 million years ago? Eggs continue to be a source of fascination and sustenance for humankind.</p>
+        <p id="quoter">-ChatGPT</p>
     </div>
+
+    <div id="sign-up" class="box-five">
+        <div class="box-five-inner">
+            <div class="box-five-inner-left">
+                <p class="box-five-call header-logo">Call to egg-tion!</p>
+                <p class="box-five-subtext">Sign up for more egg facts by clicking that button right over there!</p>
+            </div>
+                <div class="box-five-inner-right">
+                    <button id="box-five-button">Sign (sunny side) up :D</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
